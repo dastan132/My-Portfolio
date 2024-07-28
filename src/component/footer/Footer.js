@@ -36,7 +36,7 @@ function Footer({ githubUrl, instagramUrl, linkedinUrl, facebookUrl }) {
     <>
       <div className='outter'>
         <div className='media-button'>
-     
+
           {links.map((link, index) => (
             <a
               key={index}

@@ -55,7 +55,7 @@
 .cards h1,
 .cards .button-47 {
   position: absolute;
-  color: rgb(11, 11, 11);
+  color: rgb(203, 198, 198);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -70,7 +70,7 @@
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(235, 239, 30, 0.768);
+  background: rgba(0, 0, 0, 0.768);
   border: none;
   color: white;
   padding: 10px 20px;
@@ -82,5 +82,5 @@
 }
 
 .button-47:hover {
-  background: rgba(234, 15, 15, 0.8);
+  background: rgba(240, 66, 66, 0.8);
 }

@@ -14,6 +14,7 @@ function App() {
     <>
       <div>
         <Navbar />
+
         <Cursor />
         <Footer
           githubUrl={socialprofils.github}

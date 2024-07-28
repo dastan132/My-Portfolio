@@ -2,11 +2,11 @@ import React from 'react'
 import './Buttons.css'
 
 function Buttons({buttonName}) {
-  
+
   return (
     <div>
       {buttonName.map((btname) => (
-        <button className='buttons' key={btname.id} >
+        <button className='button-89' key={btname.id} >
           {btname.name}
         </button>
       ))}
@@ -15,3 +15,4 @@ function Buttons({buttonName}) {
 }
 
 export default Buttons
+
