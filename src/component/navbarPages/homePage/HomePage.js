@@ -21,17 +21,29 @@ function HomePage() {
                   )
                 })}
               </div>
-              <h1>Welcome to My Portfolio</h1>
-              <h2>I'am Anshul Rawat</h2>
-
-              <h3>
-                A passionate Front-End Developer based in Dehradun, with a knack
-                for creating visually appealing and highly functional web
-                applications. With a solid background in modern web technologies
-                and a keen eye for design, I strive to deliver exceptional user
-                experiences through my work.
-              </h3>
             </div>
+          </div>
+        </div>
+        <div className='home-profile-card'>
+          <div className='home-text-data'>
+            <h2>Welcome to My Portfolio</h2>
+          </div>
+        </div>
+        {/* <div className='home-profile-card'>
+          <div className='home-text-data'>
+          </div>
+        </div> */}
+
+        <div className='home-profile-card'>
+          <div className='home-text-data'>
+            <h2>I'am Anshul Rawat</h2>
+            <h4>
+              A passionate Front-End Developer based in Dehradun, with a knack
+              for creating visually appealing and highly functional web
+              applications. With a solid background in modern web technologies
+              and a keen eye for design, I strive to deliver exceptional user
+              experiences through my work.
+            </h4>
           </div>
         </div>
       </div>

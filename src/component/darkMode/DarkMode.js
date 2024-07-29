@@ -27,7 +27,7 @@ const DarkMode = () => {
             background: 'none',
             border: 'none',
             cursor: 'pointer',
-            fontSize: '24px',
+            fontSize: '20px',
             padding: '22px'
           }}
         >

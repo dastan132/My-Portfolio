@@ -1,36 +1,4 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
-  background: rgb(182, 182, 235);
-  background: linear-gradient(
-    180deg,
-    rgb(233, 233, 243) 0%,
-    rgb(53, 15, 75) 50%,
-    rgb(19, 2, 31) 100%
-  );
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.name {
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Rubik Doodle Shadow', system-ui;
-} */
-
-/*
-
-/* darkmode.css */
 body {
   margin: 0;
   padding: 0;
@@ -48,7 +16,7 @@ body {
 }
 
 .name {
-  font-size: 28px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +24,7 @@ body {
 }
 
 .dark-mode {
-  
+
   background-image: url('./assist/images/bg2.jpg');
   color: white;
 }

@@ -13,7 +13,7 @@ function Projects() {
 
   return (
     <div className='project-outter'>
-      <div className='project-card'>
+      <div className='project-name'>
         <div className='name'>
           {sentance.map((letter, index) => {
             return (
@@ -23,8 +23,9 @@ function Projects() {
             )
           })}
         </div>
-
-        <div className='project-container'>
+      </div>
+      <div className='project-container'>
+        <div className='project-card'>
           <div className='cards'>
             <img src={Guide} alt='Project 1' className='project-image' />
             <h1>Uttarakhand Guide</h1>
@@ -35,6 +36,8 @@ function Projects() {
               View
             </button>
           </div>
+        </div>
+        <div className='project-card'>
           <div className='cards'>
             <img src={Ai} alt='Project 1' className='project-image' />
             <h1>An-Open-Ai</h1>
@@ -45,7 +48,8 @@ function Projects() {
               View
             </button>
           </div>
-
+        </div>
+        <div className='project-card'>
           <div className='cards'>
             <img src={Auction} alt='Project 1' className='project-image' />
             <h1>Online Auction</h1>
@@ -58,13 +62,10 @@ function Projects() {
               View
             </button>
           </div>
-
+        </div>
+        <div className='project-card'>
           <div className='cards'>
-            <img
-              src={AdminPanel}
-              alt='Project 1'
-              className='project-image'
-            />
+            <img src={AdminPanel} alt='Project 1' className='project-image' />
             <h1>Admin Panel</h1>
             <button
               onClick={() =>
@@ -75,13 +76,10 @@ function Projects() {
               View
             </button>
           </div>
-
+        </div>
+        <div className='project-card'>
           <div className='cards'>
-            <img
-              src={GitFinder}
-              alt='Project 1'
-              className='project-image'
-            />
+            <img src={GitFinder} alt='Project 1' className='project-image' />
             <h1>GitFinder</h1>
             <button
               onClick={() =>
@@ -92,15 +90,6 @@ function Projects() {
               View
             </button>
           </div>
-          {/* <div className='cards'>
-            <img
-              src='https://via.placeholder.com/150'
-              alt='Project 1'
-              className='project-image'
-            />
-            <h1>Project1</h1>
-            <button className='button-47'>View</button>
-          </div> */}
         </div>
       </div>
     </div>

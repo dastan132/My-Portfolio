@@ -53,10 +53,10 @@ function Footer({ githubUrl, instagramUrl, linkedinUrl, facebookUrl }) {
           ))}
         </div>
         <div className='font'>
-          <h3>
+          <h4>
             Designed and built by Anshul Rawat. © 2024 Anshul Rawat. All rights
             reserved.
-          </h3>
+          </h4>
         </div>
       </div>
     </>
