@@ -3,24 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
-/*
-.home-outter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 80px;
-  padding: 20px;
-}
-.home-profile-card {
-  width: 100%;
-  border-radius: 24px;
-  height: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  border-radius: 24px;
-  box-sizing: border-box;
-  font-family: 'Jost', sans-serif;
-} */
 
 .home-outter {
   display: flex;
@@ -32,7 +14,7 @@
 
 .home-profile-card {
   justify-content: flex-start;
-  /* width: 100%; */
+
   border-radius: 24px;
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -56,13 +38,3 @@
   font-family: 'Jost', sans-serif;
   color: aliceblue;
 }
-
-/* .home-text-data {
-  padding: 15px 15px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Jost', sans-serif;
-  color: aliceblue;
-} */
